@@ -1,0 +1,492 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width">
+<meta name = "description" content = "Welcome to LFC Ikot-Okubo. A home of Signs and Wonders.">
+<meta name = "keywords" content = "winners chapel, living faith church, memo, shiloh, canaan land, testimonies, covenant hour of prayers
+night with the king, services, Jesus, God, I have Dominion, prophetic theme of the month">
+<title> Living Faith Church Ikot-Okubo </title>
+<style>
+body {
+  background: white;/*default background-color for browsers that do not support gradient*/
+  background: -webkit-linear-gradient(bottom right, rgba(255,0,0,0.2),rgba(22, 65, 4, 0.5),
+  rgba(0, 12, 23,0.2));/*for chrome & Safari browsers*/
+  background: -o-linear-gradient(bottom right, rgba(255,0,0,0.6),rgba(22, 65, 4, 0.5), 
+  rgba(0, 12, 23,0.2));/*for opera browsers*/
+  background: -ms-linear-gradient(bottom right, rgba(255,0,0,0.6),rgba(22, 65, 4, 0.5), 
+  rgba(0, 12, 23,0.2));/* for internet explorer IE*/
+  background: linear-gradient(bottom right, rgba(255,0,0,0.6),rgba(22, 65, 4, 0.5), 
+  rgba(0, 12, 23,0.2));/*standard syntax for gradient*/
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: cambria;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+/*for mobile phones browser*/
+[class*="col-"]{
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+/*for desktop browsers*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+#logo {
+  width: 45px;
+  height: 45px;
+}
+#about {
+  color: black;
+  font-size: 20px;
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+ 
+}
+.head h1{
+  text-align: center;
+  text-shadow: 1px 0px white;
+  box-shadow: 2px;
+  padding: 5px;
+  color: red;
+  font-size: 48px;
+  font-family: cambria;
+}
+#address {
+  color: black;
+  text-align: center;
+}
+.links-position {
+  text-align: center;
+  
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes name {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; right:200px; top:0px;}
+
+}
+
+/* Standard syntax */
+@keyframes name {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; right:200px; top:0px;}
+}
+
+.notify {
+  border: 1px solid blue;
+  background-color: blue;
+  animation-name: name;
+  animation-duration: 10s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;  
+}
+.nav li {
+  display: inline-block;
+  padding: 4px;
+  line-height: 10px;
+  margin-left: 12px;
+  background-color: white;
+  color: black;
+  box-shadow: 2px 3px black;
+  border-bottom-right-radius: 4px;
+  
+}
+.nav li:hover {
+  background-color: #ddd;
+}
+.listdropdown {
+  position: relative;
+  display: inline-block;
+  padding: 4px;
+  line-height: 10px;
+  margin-left: 12px;
+  background-color: white;
+  color: black;
+  box-shadow: 2px 3px black;
+  border-bottom-right-radius: 4px;
+  
+}
+.listdropdown-content {
+  display: none;
+  position: absolute;
+  line-height: 30px;
+}
+.listdropdown:hover .listdropdown-content {
+  display: block;
+  color: red;
+}
+
+.books-gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 80px;
+}
+.books-gallery:hover {
+  border: 1px solid #777;
+}
+.books-gallery img {
+  width: 100%;
+  height: auto;
+ }
+.books-description {
+  padding: 5px;
+  text-align: left;
+  word-break: break-word;
+  background-color: black;
+  
+}
+.subject {
+  color: red;
+  box-shadow: 1px 1px black;
+
+}
+.object {
+  padding: 10px;
+  text-indent: 40px; 
+  line-height: 25px;
+
+}
+.image-description{
+  width: 100%;
+  height: auto;
+  float: left; 
+  border-radius: 8px;
+  opacity: 0.6;
+
+}
+.details {
+  position: relative;
+  bottom: 150px;
+  left: 5px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: red;
+  color: black;
+  
+}
+a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+#cf {
+  position:relative;
+  height:auto;
+  width:100%;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  transition-duration: 1s;
+  transition-iteration-count: infinite;
+  
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+</style>
+</head>
+<body>
+<input type = "search" placeholder = "browse your search query here">
+<div class = "row">
+
+<div class = "col-12">
+
+<header class = "head">
+<h1><a href = "#">
+<img src = "C:\Users\Da'vics\Desktop\easy worship\easyworship 6 plus\easyworship images\20161117065816.png " id = "logo">
+</a>Living Faith Church,a.k.a Winners' Chapel<br>
+<span id = "about">Welcome to a Home of Signs and Wonders</span></h1>
+
+
+<address id = "address">Ikot-Okubo</address>
+
+<br>
+<div class = "links-position"> 
+
+<a href = "http://www.facebook.com/lfcadamo"/>
+<img class = "links" src = "C:\Users\Da'vics\Desktop\myhtml docs\flat-social-media-icons\facebook.png" width = "40px" height ="40px">
+</a>
+
+<a href = "http://www.facebook.com/lfcadamo"/>
+<img class = "links" src = "C:\Users\Da'vics\Desktop\myhtml docs\flat-social-media-icons\twitter.png" width = "40px" height ="40px"></a>
+<a href = "http://www.facebook.com/lfcadamo"/>
+<img class = "links" src = "C:\Users\Da'vics\Desktop\myhtml docs\flat-social-media-icons\youtube.png" width = "40px" height ="40px"></a>
+<a href = "http://www.facebook.com/lfcadamo"/>
+<img class = "links" src = "C:\Users\Da'vics\Desktop\myhtml docs\flat-social-media-icons\instagram.png" width = "40px" height ="40px"></a>
+<a href = "http://www.facebook.com/lfcadamo"/>
+<img class = "links" src = "C:\Users\Da'vics\Desktop\myhtml docs\flat-social-media-icons\rss.png" width = "40px" height ="40px"></a>
+<a href = "http://www.facebook.com/lfcadamo"/>
+<img class = "links" src = "C:\Users\Da'vics\Desktop\myhtml docs\flat-social-media-icons\share.png" width = "40px" height ="40px"></a>
+ <div class = "address">
+ </div>
+ </div>
+</header>
+</div>
+</div>
+
+
+<div class = "notify">
+<marquee> Jesus Loves You </marquee>
+</div>
+<div class ="col-5">
+<p>First Service: 7:30 am / Second Service: 9:30 am</p>
+</div>
+<div class ="col-7">
+<p id = "time"></p>
+</div>
+
+<div class ="col-4 nav">
+<ul>
+  <li><a href = "file:///C:/Users/Da'vics/Desktop/myhtml%20docs/lfc%20ikot-okubo%20homepage.html"> Home </a></li>
+  <div class = "listdropdown"> Testimonies
+  <div class = "listdropdown-content">
+  <li>  Financial </li>
+  <li>  Financial </li>
+  <li>  Financial </li>
+
+  </div>
+  </div>
+</ul>
+
+<div>
+<h1 class = "subject"> The Foundation of LFC Ikot-Okubo </h1>
+
+
+<img class = "image-description"  src = "C:\Users\Da'vics\Pictures\tools\IMG_20190821_172035 (2).jpg"
+alt = "image-desc">
+
+<p class = "object">Living faith church Ikot-Okubo is located in abak road, ikot-okubo and the name of
+the resident pastor is Pastor Solomon Dolor.
+A Prophetic man that is well equipped with the word </p>
+
+</div>
+
+<article>
+<h1 style = "color: brown;"> The resident Pastor of Living Faith Church,Ikot-Okubo.<br><span style = "color: white;">
+ Pastor Solomon Dolor.</span></h1>
+<img class = "image-description" src = "C:\Users\Da'vics\Desktop\easy worship\easyworship 6 plus\easyworship images\tnx.jpeg" 
+alt = "pst.solomon pix">
+ <p class = "object"> Jesus Love you brother and sister. You are welcome to our official website
+. I pray God shower's you with decorative favours in this our Dominion era. Be Blessed in Jesus name.
+Say to  yourself, if I do not find favours this week, favour must find me.</p> 
+</article>
+
+</div>
+
+
+ <div class ="col-8 section">
+ <br>
+
+<h1 class = "subject"> Prophetic Theme of The Month of August 2019 </h1>
+<img src = "/sdcard/WhatsApp/Media/WhatsApp Images/IMG-20190803-WA0011.jpg" width ="100%" height = "auto"><br>
+
+<h1> Check out Announcement </h2>
+<p class = "object"><span style = "color: brown; font-weight: bold; text-decoration: underline;">
+1. OPERATION BY ALL MEANS;</span> Operation By All Means is still on-going all through to 4th August 2019,
+this is Covenant platform for engaging in soul-winning and establishing them in this Church. 
+ To this end, continue from tomorrow Thursday 18th, we shall be engaging in both morning and 
+ evening prayer raid by 8-10am and 5pm daily. As you engage your Next Level shall be speedily released in Jesus name.</p>
+<p class = "object"><span style = "color: brown; font-weight: bold; text-decoration: underline;">
+2. COVENANT HOUR OF PRAYER!</span> Continues on a daily basis, Monday to Saturday as usual, Time is 5:30AM.</p>
+<p class = "object"><span style = "color: brown; font-weight: bold; text-decoration: underline;">
+3. Good News: </span>  “WOFBI August Special” shall hold on 5th August to 16th August, 2019
+in four tiers i.e JBS for Children; AJBS for Advanced Children; BCC & LCC for Adults. 
+All new converts, new members including the old members and our children are to start preparing to 
+maximize this awesome opportunity. For more details on registration check the church office.</p>
+<p class = "object"><span style = "color: brown; font-weight: bold; text-decoration: underline;">
+4. 3-DAYS SPECIAL NEXT LEVEL LEADERS WORKSHOP:</span>
+ The 3-days workshop for all Ministers, Statutory Body, Ordained Workers, units’ leaders 
+ and all excos including all cell leaders holds tomorrow Thursday to Saturday.
+This is to equip us for high productivity as leaders in the house of God. 
+Time: - 5:30pm – 7:00pm (Thursday & Friday), Saturday; 8:00 – 10:00am. </p>
+
+</div>
+<hr>
+<div class = "col-12">
+	<div id="cf">
+  <img class="bottom" src="/sdcard/DCIM/Camera/IMG_20190821_172332.jpg" width ="100%" height = "auto"/>
+  <img class="top" src="/sdcard/WhatsApp/Media/WhatsApp Images/IMG-20190803-WA0011.jpg" width ="100%" height = "auto"/>
+</div>
+</div>
+
+
+
+<div class ="col-5 nav">
+<ul>
+
+
+<button id = "chop" onclick = "myChop()"> CHOP </button>
+  <button id = "counsel" onclick = "myCounsel()"> COUNSEL</button>
+  <li> Sermons </li>
+</ul>
+
+</div>
+
+<br>
+<div class = "col-12">
+<hr>
+</div>
+<br>
+<div class = "col-12">
+<h1> Read this testimony </h1>
+<h3>DOCUMENTED TESTIMONIES</h3>
+<br>
+<span style = "color: black; font-weight: bold;">From Resignation to Promotion!</span>
+<br>
+<p>
+<q class = "object"> 
+In October 2017, I was placed on probation because I met thirty two percent of my target.
+On January 19, 2018, I was told to resign because I only met forty eight percent.
+ I came to church and reminded God of the words of His servant.
+Bishop David Oyedepo said that I shall serve and be rewarded not be told to resign.
+I became committed to Covenant Hour of Prayer. On my way to the office every morning I shared fliers, 
+I invited people to church and saw to their establishment.
+The following week, after the Covenant Hour of Prayer, one of the billionaires in Festac province met with me. 
+He asked how he could open an account in my bank and I told him.
+ Immediately, he asked for the account opening form, I gave it to him. 
+ Right there, he filled and signed it. 
+Thereafter, I went to his house and he gave me all the necessary documents. I went to the office and opened the account. 
+That same day, he transferred an amount that changed my position. The following week, 
+the Head of Human Resources said I should be reappraised. 
+I was reappraised and I scored one hundred and fifty percent of my target. 
+On May 17, 2019, I was promoted. I give God all the glory! 
+
+--Francis Obiasor
+</q>
+
+<a href = "#"> READ MORE TESTIMONIES!</a>
+
+ </p>
+</div>
+
+
+<div class = "col-12">
+<hr>
+</div>
+
+<div class = "col-4">
+<section>
+ <h1 class = "subject"> JESUS CAN HELP YOU </h1>
+ <p class = "object"> God aches for you, and He longs to be your Comforter. Don't give up on Him. After all, He will never give up on you!
+ HIV infection is not the end of life. It is not the best, yet one can live a fulfilled life despite the conditions. Look for a 
+ Christian counselling center to assist you.</p>
+ <img src = "C:\Users\Da'vics\Desktop\easy worship\easyworship 6 plus\easyworship images\images[1][11].jpg">
+<p> The Youth Alive Fellowship is a platform of the Youths in Winners' Chapel where we all 
+meet and have an experience with the fellowship of the HolySpirit</p>
+ </section>
+
+</div>
+
+<div class = "col-8">
+<h3> Check books of the month authored by <br>Bishop David O. Oyedepo </h3>
+<div class = "books-gallery">
+<img src = "C:\Users\Da'vics\Desktop\easy worship\easyworship 6 plus\easyworship images\31aewySg3KL._SY400_.jpg">
+<div class ="books-description"> The Hidden covenant of Blessings </div>
+</div>
+
+<div class = "books-gallery">
+<img style = "height: 123px; width: 78px;" src = "C:\Users\Da'vics\Desktop\easy worship\easyworship 6 plus\easyworship images\31t9YPTT0dL._SY400_.jpg">
+<div class ="books-description"> Understanding Financial Prosperity </div>
+</div>
+
+<div class = "books-gallery">
+<img src = "C:\Users\Da'vics\Desktop\easy worship\easyworship 6 plus\easyworship images\51UlLLWwGYL._SY400_.jpg">
+<div class ="books-description"> Breaking Financial Hardship </div>
+</div>
+
+<div class = "books-gallery">
+<img src = "C:\Users\Da'vics\Desktop\easy worship\easyworship 6 plus\easyworship images\41a12eOPy5L._SY400_.jpg">
+<div class ="books-description">Covenant Wealth </div>
+</div>
+<textarea style = "margin-left: 80px;"name="message" rows="10" cols="30" placeholder = "type and send in your comments or messages with the button I
+have Dominion"></textarea>
+<input type = "submit" value = "I have Dominion" style = "border: none; background-color: red; position: relative; right: -40px;">
+
+</div>
+
+<div class = "col-12">
+<hr>
+<footer>
+<h1> Site Designed by <span style = "color: green;">Da'vics Codex</span> </h1>
+<p> Follow me on my social media handle </p>
+<a href = "">Facebook</a>| 
+<a href = "">Instagram</a>|
+<a href = "">Twitter</a>|
+<a href = "">LinkedIn</a>|
+</footer>
+</div>
+
+</div>
+
+<script>
+var time, styleTime, chop, counsel;
+time = Date();
+styleTime = document.getElementById("time");
+styleTime.style.color = "blue";
+styleTime.style.fontweight = "bold";
+document.getElementById("time").innerHTML = time;
+function myChop() {
+chop = "Covenant Hour of Prayer Starts by 5:30am";
+document.getElementById("chop").innerHTML = chop;
+
+}
+function myCounsel() {
+counsel = "Your request has  been sent for counseling";
+document.getElementById("chop").innerHTML = counsel;
+
+}
+window.alert("Click Ok to enter LFC-Ikot-Okubo Web page");
+ 
+
+</script>
+</body>
+</html>
